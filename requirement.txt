@@ -1,0 +1,5 @@
+tensorflow
+arcade
+pandas
+numpy
+matplotlib
