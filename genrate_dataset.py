@@ -92,4 +92,3 @@ if __name__ == "__main__":
     game = Game()
     game.run()
  
-#'w_up','w_right','w_down','w_left',
