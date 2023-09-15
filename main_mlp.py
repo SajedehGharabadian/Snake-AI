@@ -69,16 +69,6 @@ class Game(arcade.Window):
             self.snake.change_x = -1
             self.snake.change_y = 0
 
-        # if self.snake.center_x > (SCREEN_WIDTH - 25) :
-        #     self.snake.change_x = -1
-        # elif self.snake.center_x <= 25 :
-        #     self.snake.change_x = 1
-        # if self.snake.center_y > (SCREEN_HEIGHT - 25) :
-        #     self.snake.change_y = -1
-        # elif self.snake.center_y <= 25 :
-        #     self.snake.change_y = 1
-
-
 
         self.snake.on_update(delta_time)
         self.apple.on_update()
