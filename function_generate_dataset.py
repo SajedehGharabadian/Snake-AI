@@ -102,5 +102,4 @@ def generate_data(SCREEN_WIDTH,SCREEN_HEIGHT,snake,apple,wall_width):
                      a_up,a_right,a_down,a_left,b_up,b_right,b_down,b_left]
                     ,dtype=np.float32)
 
-#w_up,w_right,w_down,w_left,
 
