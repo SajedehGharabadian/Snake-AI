@@ -25,10 +25,9 @@ python main_mlp.py
 ## Loss and Accuracy
 | Dataset       | Algorithm   | Accuracy | Loss      |
 | -------       | ---         | ---      | -----     |
-| Train Dataset |    MLP      | 99.44%   | 0.0128    |
-| Test Dataset  |    MLP      | 99.82%   | 0.0074    |
+| Train Dataset |    MLP      | 99.36%   | 0.0319    |
+| Test Dataset  |    MLP      | 99.362%  | 0.0318    |
 
-![image](https://github.com/SajedehGharabadian/Snake-AI/assets/76538787/03e6dcc7-8db8-49db-80a8-9400e3e05ecc)
+![image](https://github.com/SajedehGharabadian/Snake-AI/assets/76538787/439afdac-769a-4fb0-8eeb-f1c857be17b0)
 
-![image](https://github.com/SajedehGharabadian/Snake-AI/assets/76538787/fd111076-5ee2-462a-be0e-5c9def458837)
 
