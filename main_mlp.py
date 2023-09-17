@@ -23,8 +23,7 @@ class Game(arcade.Window):
         self.apple = Apple(SCREEN_WIDTH,SCREEN_HEIGHT,self.wall)
         self.start_x = 0
         self.start_y = 10
-        self.model = load_model('model\weight_snake.h5',compile=False)
-        # self.model.compile()
+        self.model = load_model('model\weight_snake.h5')
 
     def on_draw(self):
         arcade.start_render()
@@ -52,20 +51,20 @@ class Game(arcade.Window):
         print (direction)
         
         
-        if direction == 0:
+        if direction == 0 and self.snake.change_y != -1:
             self.snake.change_x = 0 
             self.snake.change_y = 1
             
-        elif direction == 1:
+        elif direction == 1 and self.snake.change_x != -1:
             self.snake.change_x = 1
             self.snake.change_y = 0
             
 
-        elif direction == 2:
+        elif direction == 2 and self.snake.change_y != 1:
             self.snake.change_x = 0
             self.snake.change_y = -1
             
-        elif direction == 3:
+        elif direction == 3 and self.snake.change_x != 1:
             self.snake.change_x = -1
             self.snake.change_y = 0
 
