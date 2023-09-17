@@ -11,7 +11,7 @@ pip insatll -r requirement.txt
 ## How to run
 1- Generate dataset 
 ```
-python genrate_dataset.py
+python generate_dataset.py
 ```
 2- Train dataset with neural network.
 ```
