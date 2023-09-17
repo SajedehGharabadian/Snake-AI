@@ -9,11 +9,18 @@ pip insatll -r requirement.txt
 ```
 
 ## How to run
-1- Generate dataset with function_generate_dataset.py
-
+1- Generate dataset 
+```
+python genrate_dataset.py
+```
 2- Train dataset with neural network.
-
+```
+python train.py
+```
 3- Play game 
+```
+python main_mlp.py
+```
 
 ## Loss and Accuracy
 | Dataset       | Algorithm   | Accuracy | Loss      |
