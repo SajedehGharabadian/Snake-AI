@@ -23,7 +23,7 @@ class Game(arcade.Window):
         self.apple = Apple(SCREEN_WIDTH,SCREEN_HEIGHT,self.wall)
         self.start_x = 0
         self.start_y = 10
-        self.model = load_model('model\weight_snake.h5')
+        self.model = load_model('model/weight_snake.h5')
 
     def on_draw(self):
         arcade.start_render()
