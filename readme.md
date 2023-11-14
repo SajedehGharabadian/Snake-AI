@@ -1,7 +1,7 @@
 # Snake game with Machine Learning
 ## Discription
 The project focuses on the artificial intelligence of the Snake game, can play game automatically.
-This game is written in python
+This game is written in python.
 
 ## How to install
 ```
