@@ -13,7 +13,7 @@ pip insatll -r requirement.txt
 ```
 python generate_dataset.py
 ```
-2- Train dataset with neural network.
+2- Train dataset with neural network
 ```
 python train.py
 ```
